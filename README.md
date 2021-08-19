@@ -1,6 +1,6 @@
 # C++ Codeforces Template
 
-Template of C++ that I use in [Codeforces](https://codeforces.com/) contests. 
+Template of C++ that I use in [Codeforces](https://codeforces.com/profile/FrankS "My codeforces profile") contests. 
 
 Debugging in competitive programming (CP) is hard. But there are several attempts have been done to ease this process. 
 Some people, including some top CP-ers, have spent their time writing some code, so-called **debugging templates**.
