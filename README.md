@@ -27,7 +27,7 @@ The proposal is a pure library extension. It does not require changes to the sta
 
 ### 2. The printing functions
 
-Not everything can be printed to std::ostream (yet). But lucky for us, with the power of C++, we add overloading functions for printing what every type we like (except what already has that function).
+Not everything can be printed to `std::ostream` (yet). But lucky for us, with the power of C++, we add overloading functions for printing what every type we like (except what already has that function).
 
 I only add 3 more basic printing functions, which are for `std::pair`, `std::tuple` and general container (`std::vector`, `std::list`, `std::set`, `std::map`, etc. ), except for `std::string` because it already existed.
 
