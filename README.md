@@ -6,7 +6,7 @@ Debugging in competitive programming (CP) is hard. But there are several attempt
 Some people, including some top CP-ers, have spent their time writing some code, so-called **debugging templates**.
 These pieces of code are often used to print out some variables value in the code.
 
-1. Lambda function
+### 1. Lambda function
 
 C++11/14 lambdas do not encourage recursion: there is no way to reference the lambda object from the body of the lambda function.
 So it propose adding to the standard library a std::y_combinator function that enables the following fast and clean code, free from the some problems:
@@ -25,7 +25,7 @@ int main() {
 
 The proposal is a pure library extension. It does not require changes to the standard components. The extension can be implemented in C++11 and C++14.
 
-2. The printing functions
+### 2. The printing functions
 
 Not everything can be printed to std::ostream (yet). But lucky for us, with the power of C++, we add overloading functions for printing what every type we like (except what already has that function).
 
@@ -80,10 +80,10 @@ And the output to stderr:
 (s): {{1, 1, 2, 3, 5, 8}, {1, 2, 3, 4, 5, 6}, {1, 4, 9, 16, 25, 64}}
 ```
 
-3. Other stuff
+### 3. Other stuff
 
 Definitions like ll for long long type, pi for vector<int> type, and the generic pqg for priority queue. How cool are those!
 
 Definitions for loop in containers: fornm(i,n,m) describe a for loop from n to m exclusive
 
-4. ... 
+### 4. ... 
